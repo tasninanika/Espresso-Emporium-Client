@@ -1,9 +1,13 @@
-import React from "react";
-
+import headerBanner from "../assets/images/more/15.jpg";
 const Header = () => {
   return (
     <div>
-      <h2>Header</h2>
+      <h2
+        className="text-white text-4xl font-bold py-20 text-center bg-cover bg-center"
+        style={{ backgroundImage: `url(${headerBanner})` }}
+      >
+        Espresso Emporium
+      </h2>
     </div>
   );
 };
