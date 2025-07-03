@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <div>
       <h2
-        className="text-white text-4xl font-bold py-20 text-center bg-cover bg-center"
+        className="text-white text-4xl font-bold py-4 text-center bg-cover bg-center"
         style={{ backgroundImage: `url(${headerBanner})` }}
       >
         Espresso Emporium
