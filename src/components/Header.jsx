@@ -1,5 +1,5 @@
 import headerBanner from "../assets/images/more/15.jpg";
-import logo1 from "../assets/images/more/logo1.png";
+import headerLogo from "../assets/images/more/logo1.png";
 import "../App.css";
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         style={{ backgroundImage: `url(${headerBanner})` }}
       >
         <div className="flex items-center justify-center gap-2">
-          <img src={logo1} alt="Logo" className="h-12 w-12" />
+          <img src={headerLogo} alt="Logo" className="h-12 w-12" />
           <span className="font-[Rancho] text-white text-4xl">
             Espresso Emporium
           </span>
