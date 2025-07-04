@@ -9,8 +9,8 @@ const Home = () => {
         }}
       >
         <div className="hero-overlay opacity-30"></div>
-        <div className="hero-content text-neutral-content text-end">
-          <div className="">
+        <div className="hero-content text-neutral-content ">
+          <div className="lg:w-2/5">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
