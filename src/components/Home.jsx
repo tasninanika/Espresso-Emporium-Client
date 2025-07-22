@@ -19,7 +19,7 @@ const Home = () => {
   const [coffees, setCoffees] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("https://espresso-emporium-server-nine.vercel.app/coffees")
+    fetch("https://espresso-emporium-server-3exr.onrender.com/coffees")
       .then((res) => res.json())
       .then((data) => {
         setCoffees(data);

@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <CoffeeDetails></CoffeeDetails>,
         loader: ({ params }) =>
           fetch(
-            `https://espresso-emporium-server-nine.vercel.app/coffees/${params.id}`
+            `https://espresso-emporium-server-3exr.onrender.com/coffees/${params.id}`
           ),
       },
       {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <UpdateCoffee></UpdateCoffee>,
         loader: ({ params }) =>
           fetch(
-            `https://espresso-emporium-server-nine.vercel.app/coffees/${params.id}`
+            `https://espresso-emporium-server-3exr.onrender.com/coffees/${params.id}`
           ),
       },
       {
