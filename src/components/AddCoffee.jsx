@@ -42,7 +42,22 @@ const AddCoffee = () => {
             text: "New Coffee Added!",
             icon: "success",
           });
+          form.reset();
+        } else {
+          Swal.fire({
+            title: "Oops!",
+            text: "Failed to add tea.",
+            icon: "error",
+          });
         }
+      })
+      .catch((error) => {
+        console.error("Error while adding tea:", error);
+        Swal.fire({
+          title: "Error!",
+          text: "Something went wrong. Try again.",
+          icon: "error",
+        });
       });
   };
   return (
