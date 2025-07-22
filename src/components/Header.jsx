@@ -1,22 +1,18 @@
-import headerBanner from "../assets/images/more/15.jpg";
-import headerLogo from "../assets/images/more/logo1.png";
-import "../App.css";
+import React from 'react';
+import './Styles.css';
+import headerLogo from '../images/more/logo1.png';
+
 const Header = () => {
-  return (
-    <div>
-      <h2
-        className="text-white text-4xl py-4 text-center bg-cover bg-center"
-        style={{ backgroundImage: `url(${headerBanner})` }}
-      >
-        <div className="flex items-center justify-center gap-2">
-          <img src={headerLogo} alt="Logo" className="h-12 w-12" />
-          <span className="font-[Rancho] text-white text-4xl">
-            Espresso Emporium
-          </span>
+    return (
+        <div className='w-full h-14 header-bg flex justify-center items-center gap-2'>
+            <div>
+                <img className='w-9' src={headerLogo} alt="" />
+            </div>
+            <div>
+                <h2 className='text-3xl text-white title'>Espresso Emporium</h2>
+            </div>
         </div>
-      </h2>
-    </div>
-  );
+    );
 };
 
 export default Header;
