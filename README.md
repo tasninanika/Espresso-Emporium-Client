@@ -80,7 +80,7 @@ The **backend** is built with **Node.js, Express.js, and MongoDB**, deployed on 
 2. **Add Coffee:** Use the form to add new coffee. SweetAlert2 confirms success or failure.
 3. **Coffee Details:** Click the **eye icon** to view detailed coffee information.
 4. **Update Coffee:** Edit coffee info by clicking the **pen icon**.
-5. **Delete Coffee:** Click the delete button to confirm and remove a coffee item.
+5. **Delete Coffee:** Click the **delete icon** to confirm and remove a coffee item.
 
 ---
 
